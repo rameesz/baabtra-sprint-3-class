@@ -1,0 +1,32 @@
+#div1{
+    width: fit-content;
+    height: fit-content;
+    background-color: blueviolet;
+    border: 1px solid green;
+    padding: 10px;
+    visibility: hidden;
+}
+
+#div2{
+    width: fit-content;
+    height: fit-content;
+    background-color: blueviolet;
+    border: 1px solid green;
+    padding: 10px;
+    display: none;
+
+}
+
+#div3{
+    height: 500px;
+    width: 800px;
+    background-color: rgb(161, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    opacity: 1;
+}
+
+#p7{
+    color: blue;
+    font-weight: bold;
+    opacity: .6;
+}

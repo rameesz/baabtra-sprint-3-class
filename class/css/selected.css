@@ -1,0 +1,15 @@
+/* id selector */
+#n1{
+    color: red;
+}
+
+#p1{
+    color: blue;
+}
+
+/* class selector */
+.section{
+    color: red;
+    font-size: 25px;
+}
+

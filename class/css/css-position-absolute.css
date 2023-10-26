@@ -1,0 +1,26 @@
+#parent{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    position: relative;
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+}
+
+.green{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}

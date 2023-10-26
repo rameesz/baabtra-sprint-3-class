@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+
+#parent{
+    background-color: aqua;
+    width: 99%;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align horizontally (main axis) */
+    /* justify-content: center; */
+
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+
+    /* align veritically (cross axis) */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+
+}
+.item1, .item2, .item3{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(52, 202, 32);
+    color: rgb(184, 13, 13);
+    text-align: center;
+}  
+

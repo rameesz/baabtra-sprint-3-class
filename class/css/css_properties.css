@@ -1,0 +1,85 @@
+/* color properties */
+
+h1 {
+    /* color: rebeccapurple; */
+    /* color: rgb(218, 135, 28); */
+    /* color: rgb(255, 0, 0); */
+    color: #ae31ee;
+}
+
+/* border properties */
+
+h1 {
+    /* border: 1px solid red; */
+    border-color: red;
+    /* border-style: solid; */
+    border-top-style: dashed;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+/* background properties */
+
+div {
+    height: 500px;
+    width: 600px;
+    background-color: greenyellow;
+    background-image: url("https://picsum.photos/200/300");
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-size: contain; */
+    /* background-attachment: fixed; */
+    background-position: center bottom;
+}
+
+/* font properties */
+
+#pa1 {
+    /* font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps; */
+    font: italic small-caps bold 24px Georgia;
+}
+
+/* text properties */
+
+#pa2 {
+    font-size: medium;
+    color: rgb(140, 221, 9);
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: 1px 1px green;
+
+}
+
+#users td,
+#users th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#users {
+    border-collapse: collapse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#users th {
+    background-color: green;
+    padding: 5px;
+    color: rgb(198, 198, 212);
+}
+
+#users tr:nth-child(even) {
+    background-color: rgb(218, 145, 145);
+}
+
+#users tr:hover{
+    background-color: aqua;
+}
